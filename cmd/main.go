@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	algo "goDSA/pkg/algorithms"
-	graphAlgo "goDSA/pkg/algorithms/graph"
-	binaryTree "goDSA/pkg/dataStructures/binaryTree"
-	graph "goDSA/pkg/dataStructures/graph"
-	hp "goDSA/pkg/dataStructures/heap"
-	list "goDSA/pkg/dataStructures/list"
 	"math/rand/v2"
+
+	algo "github.com/alanarteagav/goDSA/pkg/algorithms"
+	graphAlgo "github.com/alanarteagav/goDSA/pkg/algorithms/graph"
+	binaryTree "github.com/alanarteagav/goDSA/pkg/dataStructures/binaryTree"
+	graph "github.com/alanarteagav/goDSA/pkg/dataStructures/graph"
+	hp "github.com/alanarteagav/goDSA/pkg/dataStructures/heap"
+	list "github.com/alanarteagav/goDSA/pkg/dataStructures/list"
 )
 
 func testList() {

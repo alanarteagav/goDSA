@@ -1,6 +1,6 @@
 package algorithms
 
-import ds "goDSA/pkg/dataStructures"
+import ds "github.com/alanarteagav/goDSA/pkg/dataStructures"
 
 func MergeSort[T ds.Ordered](A *[]T, l, r int) {
 	if l < r {

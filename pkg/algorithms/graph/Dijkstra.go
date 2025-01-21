@@ -1,9 +1,10 @@
 package algorithms
 
 import (
-	gr "goDSA/pkg/dataStructures/graph"
-	heap "goDSA/pkg/dataStructures/heap"
 	"math"
+
+	gr "github.com/alanarteagav/goDSA/pkg/dataStructures/graph"
+	heap "github.com/alanarteagav/goDSA/pkg/dataStructures/heap"
 )
 
 func Dijkstra(D gr.WeightedDigraph, r int) ([]int, []float64) {

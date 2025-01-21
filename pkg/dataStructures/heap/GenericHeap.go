@@ -1,6 +1,6 @@
 package heap
 
-import ds "goDSA/pkg/dataStructures"
+import ds "github.com/alanarteagav/goDSA/pkg/dataStructures"
 
 type HeapItem[V any, P ds.Ordered] struct {
 	Value    V // The value of the item; arbitrary.

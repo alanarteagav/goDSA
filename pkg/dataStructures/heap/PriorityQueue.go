@@ -4,7 +4,8 @@ import (
 	"container/heap"
 	hp "container/heap"
 	"errors"
-	ds "goDSA/pkg/dataStructures"
+
+	ds "github.com/alanarteagav/goDSA/pkg/dataStructures"
 )
 
 type PriorityQueue[V any, P ds.Ordered] struct {

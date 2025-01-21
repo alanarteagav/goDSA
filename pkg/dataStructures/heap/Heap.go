@@ -1,6 +1,6 @@
 package heap
 
-import ds "goDSA/pkg/dataStructures"
+import ds "github.com/alanarteagav/goDSA/pkg/dataStructures"
 
 type Heap[T ds.Ordered] interface {
 	BuildMaxHeap(*[]T)

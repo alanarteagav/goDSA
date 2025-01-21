@@ -1,6 +1,6 @@
 package algorithms
 
-import ds "goDSA/pkg/dataStructures"
+import ds "github.com/alanarteagav/goDSA/pkg/dataStructures"
 
 // Binary Search algorithm
 func BinarySearch[T ds.Ordered](s []T, item T) int {

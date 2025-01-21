@@ -2,7 +2,8 @@ package heap
 
 import (
 	"errors"
-	ds "goDSA/pkg/dataStructures"
+
+	ds "github.com/alanarteagav/goDSA/pkg/dataStructures"
 )
 
 type MinHeap[T ds.Ordered] struct {

@@ -1,6 +1,6 @@
 package binaryTree
 
-import ds "goDSA/pkg/dataStructures"
+import ds "github.com/alanarteagav/goDSA/pkg/dataStructures"
 
 type Tree[T ds.Ordered] struct {
 	root *TreeNode[T]

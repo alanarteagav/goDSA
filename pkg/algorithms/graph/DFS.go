@@ -1,8 +1,8 @@
 package algorithms
 
 import (
-	ds "goDSA/pkg/dataStructures"
-	gr "goDSA/pkg/dataStructures/graph"
+	ds "github.com/alanarteagav/goDSA/pkg/dataStructures"
+	gr "github.com/alanarteagav/goDSA/pkg/dataStructures/graph"
 )
 
 func DFS(G gr.Graph, r int) {
